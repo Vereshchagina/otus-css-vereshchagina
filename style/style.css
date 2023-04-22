@@ -63,13 +63,13 @@
     font-weight: 400;
 }
 
-.header__title {
+.hero__title {
     font-family: "Playfair Display", serif;
     font-size: 86px;
     font-weight: 500;
 }
 
-.header__subtitle {
+.hero__subtitle {
     font-size: 20px;
     font-weight: 500;
 }
