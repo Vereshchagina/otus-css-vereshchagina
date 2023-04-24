@@ -53,12 +53,17 @@
     font-weight: 400;
 }
 
-/** глобальные параметры для всего документа */
+/** глобальные стили для всего документа */
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.sizer {
+    max-width: 1065px;
+    margin: 0 auto;
 }
 
 /** стилизация шрифтов */
@@ -143,4 +148,41 @@
 .footer__link {
     font-family: "Butler", serif;
     font-size: 40px;
+}
+
+/** стили для header */
+
+.header {
+    min-height: 135px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.header__menu {
+    max-width: 34px;
+    max-height: 15px;
+    border: none;
+    background: transparent;
+}
+
+/** стили для hero-section */
+
+.hero {
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    min-height: 630px;
+    position: relative;
+}
+
+.hero__box {
+    background-color: #fff;
+    width: 56%;
+    min-height: 360px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 110px;
+    padding-bottom: 110px;
 }
