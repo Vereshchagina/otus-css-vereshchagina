@@ -5,23 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Playfair+Display:wght@500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+
 </head>
-<body>
+
+<body class="body">
 
     <div class="page">
 
-        <!-- hfpдел-заголовок страницы -->
-
         <header class="header">
-            <img class="header__image" src="./images/header.jpg" alt="Stylish interior with sofa, coffee table and vase.">
-            <h1 class="header__title">Mod Studio</h1>
-            <h3 class="header__subtitle">Modern Web Studio</h3>
+            <button type="button" class="header__menu">
+                <img src="" alt="Menu button.">
+            </button>
         </header>
 
-        <!-- основное содержание страницы -->
         <main class="content">
 
-        <!-- раздел с биографией автора -->
+            <section class="hero">
+                <img class="hero__image" src="./images/header.jpg" alt="Stylish interior with sofa, coffee table and vase.">
+                <div class="hero__box">
+                    <h1 class="hero__title">Mod Studio</h1>
+                    <h3 class="hero__subtitle">Modern Web Studio</h3>
+                </div>
+            </section>
+
             <section class="biography">
                 <img class="biography__image" src="./images/biography.jpg" alt="A barefoot girl in a long dress and a hat walks along the sand.">
                 <h3 class="biography__title">Biography</h3>
@@ -31,12 +41,13 @@
                 <p class="biography__description">“The more I deal with the work as something that is my own,  as something that is personal, the more successful it is.”</p>
             </section>
 
-        <!-- раздел с дизайнерами -->
             <section class="designers">
                 <h3 class="designers__title">Designers</h3>
                 <figure>
                     <img src="./images/wonder.jpg" alt="Girl in a coat, scarf and knitted hat looks into the distance.">
-                    <figcaption>
+
+                    <figcaption class="designers__caption">
+
                         <b>JESS WONDER</b><br>
                         <b>From/</b> Be more flower<br>
                         <b>Skills/</b> Design Strategy / Marketing
@@ -45,7 +56,9 @@
 
                 <figure>
                     <img src="./images/clein.jpg" alt="The model is holding a folder and a phone.">
-                    <figcaption>
+
+                    <figcaption class="designers__caption">
+
                         <b>KAMERON CLEIN</b><br>
                         <b>From/</b> Be more flower<br>
                         <b>Skills/</b> Design Strategy / Marketing
@@ -55,7 +68,8 @@
 
                 <figure>
                     <img src="./images/red.jpg" alt="The model sits and holds a glass of coffee, with a notepad and glasses on her knees.">
-                    <figcaption>
+
+                    <figcaption class="designers__caption">
                         <b>LOUISSE RED</b><br>
                         <b>From/</b> Be more flower<br>
                         <b>Skills/</b> Design Strategy / Marketing
@@ -80,8 +94,9 @@
 
             <!-- раздел с сильными сторонами -->
             <section class="strengths">
-                <h3 class="strengths__subtitle">Strong points</h3>
-                <h2 class="strengths__title">Strengths</h2>
+
+                <h3 class="strengths__title">Strong points</h3>
+                <h2 class="strengths__subtitle">Strengths</h2>
                 <img class="strengths__image strengths__image-one" src="./images/strength-1.jpg" alt="Laptop is on the table.">
                 <img class="strengths__image strengths__image-two" src="./images/strength-2.jpg" alt="Stylish interior with round armchair with pillows.">
                 <ul class="strengths__list">
