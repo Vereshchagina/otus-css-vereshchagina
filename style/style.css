@@ -145,10 +145,6 @@
     font-size: 40px;
 }
 
-.page {
-    max-width: 1440px;
-}
-
 /** стили для header */
 
 .header {
@@ -174,7 +170,6 @@
     margin: auto;
     margin-bottom: 135px;
     max-width: 74%;
-
 }
 
 .hero__box {
