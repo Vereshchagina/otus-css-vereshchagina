@@ -167,8 +167,7 @@
     background-size: cover;
     min-height: 630px;
     position: relative;
-    margin: auto;
-    margin-bottom: 135px;
+    margin: 0px auto 135px;
     max-width: 1065px;
 }
 
@@ -185,4 +184,49 @@
     padding-left: 20px;
     padding-bottom: 110px;
     padding-right: 20px;
+}
+
+/** стили для biography-section */
+.biography {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    max-width: 1175px;
+    max-height: 840px;
+    margin: 0px auto 135px;
+}
+
+.biography__image {
+    max-width: 47%;
+    max-height: 100%;
+}
+
+.biography__title{
+    position:absolute;
+    transform: rotate(-90deg);
+    top: 38px;
+    left: 553px;
+    max-width: 92px;
+}
+
+.biography__author{
+    min-width: 475px;
+    margin-top: 163px;
+    margin-bottom: 25px;
+}
+
+.biography__subtitle{
+    max-width: 475px;
+    margin-bottom: 65px;
+}
+
+.biography__decor{
+    max-width: 14px;
+    margin-bottom: 17px;
+}
+
+.biography__description{
+    max-width: 449px;
 }
