@@ -82,23 +82,6 @@
     font-weight: 500;
 }
 
-.biography__title {
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.biography__author {
-    font-family: "Playfair Display", serif;
-    font-size: 86px;
-    font-weight: 500;
-    line-height: 1.3;
-}
-
-.biography__subtitle {
-    font-size: 18px;
-    font-weight: 500;
-}
-
 .biography__description {
     font-family: "Bitter", serif;
     font-size: 26px;
@@ -192,7 +175,8 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: space-between;
+    align-content: flex-start;
+    gap: 33px;
     max-width: 1175px;
     max-height: 840px;
     margin: 0px auto 135px;
@@ -204,26 +188,41 @@
 }
 
 .biography__title{
-    position:absolute;
-    transform: rotate(-90deg);
-    top: 38px;
-    left: 553px;
-    max-width: 92px;
+    transform: rotate(-180deg);
+    writing-mode:vertical-rl;
+    max-width: 23px;
+    max-height: 92px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.biography__content{
+    max-width: 475px;
+    min-height: 507px;
+    margin-top: 38px;
+    margin-left: 114px;
 }
 
 .biography__author{
-    min-width: 475px;
-    margin-top: 163px;
     margin-bottom: 25px;
+    font-family: "Playfair Display", serif;
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 1.3;
 }
 
-.biography__subtitle{
-    max-width: 475px;
+.biography__job{
     margin-bottom: 65px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
-.biography__decor{
-    max-width: 14px;
+.biography__description::before{
+    display: block;
+    content: "";
+    width: 14px;
+    height: 4px;
+    background-color: black;
     margin-bottom: 17px;
 }
 
