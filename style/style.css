@@ -173,10 +173,9 @@
 .biography {
     position: relative;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    gap: 33px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
     max-width: 1175px;
     max-height: 840px;
     margin: 0px auto 135px;
@@ -184,7 +183,7 @@
 
 .biography__image {
     max-width: 47%;
-    max-height: 100%;
+    max-height: 840px;
 }
 
 .biography__title{
@@ -194,13 +193,14 @@
     max-height: 92px;
     font-size: 20px;
     font-weight: 700;
+    margin-left: 33px;
 }
 
 .biography__content{
     max-width: 475px;
     min-height: 507px;
-    margin-top: 38px;
-    margin-left: 114px;
+    margin-top: 163px;
+    margin-left: 91px;
 }
 
 .biography__author{
