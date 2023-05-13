@@ -116,11 +116,16 @@
 
 .testimonials__subtitle {
     font-weight: 700;
+    font-size: 16px;
 }
 
 .testimonials__content {
     font-family: "Bitter", serif;
     font-size: 32px;
+}
+
+.testimonials__link {
+    font-size: 16px;
 }
 
 .strengths__title {
@@ -185,4 +190,20 @@
     padding-left: 20px;
     padding-bottom: 110px;
     padding-right: 20px;
+}
+
+.designers {
+    margin-bottom: 258px;
+}
+
+.testimonials{
+    max-width: 813px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 56px 1fr;
+    margin-bottom: 134px;
+    
+}
+.testimonials__image_size_large{
+    max-width: 515px;
 }
