@@ -199,7 +199,7 @@
 .biography__content{
     max-width: 475px;
     min-height: 507px;
-    margin-top: 163px;
+    align-self: center;
     margin-left: 91px;
 }
 
