@@ -109,11 +109,6 @@
     font-weight: 700;
 }
 
-.testimonials__title {
-    font-size: 20px;
-    font-weight: 700;
-}
-
 .testimonials__subtitle {
     font-weight: 700;
     font-size: 16px;
@@ -201,8 +196,9 @@
     margin:auto;
     margin-bottom: 134px;
 }
-
 .testimonials__title {
+    font-size: 20px;
+    font-weight: 700;
     margin-bottom: 33px;
 }
 
@@ -217,11 +213,10 @@
     align-content: flex-end;
     margin-bottom: 15px;
     gap: 190px;
-   
 }
 
 .testimonials__link {
-    display: block;
+    display: inline-block;
     max-width: 186px;
     text-decoration: none;
     color: black;
@@ -244,7 +239,6 @@
     text-align: center;
     margin-bottom: 42px;
 }
-
 
 .testimonials__image_size_large{
     max-width: 515px;
