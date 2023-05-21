@@ -226,13 +226,14 @@
   overflow: auto;
   margin-left: 73px;
   margin-bottom: 258px;
-  max-height: 645px;
+  min-height: 660px;
 }
 
 .designers__title {
   display: inline-block;
-  /*transform: rotate(-90deg);
-  transform-origin: right bottom;*/
+  max-width: 91px;
+  transform: rotate(-90deg);
+  transform-origin: right bottom;
   font-size: 20px;
   font-weight: 700;
 }
@@ -257,14 +258,14 @@
 .designers__photo-container {
   max-width: 320px;
   max-height: 440px;
-  flex-grow: 1;
+
   overflow: hidden;
 }
 
 .designers__photo-container_resized {
   max-width: 640px;
   max-height: 538px;
-  flex-grow: 2;
+
   overflow: hidden;
 }
 
