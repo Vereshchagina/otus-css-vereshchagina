@@ -1,231 +1,321 @@
 /** подключение шрифтов */
 
 @font-face {
-    font-family: "Roboto";
-    src: local("Roboto Regular"),
-        local("Roboto-Regular"),
-        url("./Roboto/Roboto-Regular.ttf") format("ttf");
-    font-style: normal;
-    font-weight: 400;
+  font-family: "Roboto";
+  src: local("Roboto Regular"), local("Roboto-Regular"),
+    url("./Roboto/Roboto-Regular.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 400;
 }
 
 @font-face {
-    font-family: "Roboto";
-    src: local("Roboto Medium"),
-        local("Roboto-Medium"),
-        url("./Roboto/Roboto-Medium.ttf") format("ttf");
-    font-style: normal;
-    font-weight: 500;
+  font-family: "Roboto";
+  src: local("Roboto Medium"), local("Roboto-Medium"),
+    url("./Roboto/Roboto-Medium.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 500;
 }
 
 @font-face {
-    font-family: "Roboto";
-    src: local("Roboto Bold"),
-        local("Roboto-Bold"),
-        url("./Roboto/Roboto-Bold.ttf") format("ttf");
-    font-style: normal;
-    font-weight: 700;
+  font-family: "Roboto";
+  src: local("Roboto Bold"), local("Roboto-Bold"),
+    url("./Roboto/Roboto-Bold.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 700;
 }
 
 @font-face {
-    font-family: "Playfair Display";
-    src: local("Playfair Display"),
-        local("PlayfairDisplay"),
-        url("./PlayfairDisplay/PlayfairDisplay-VariableFont_wght.ttf") format("ttf");
-    font-style: normal;
-    font-weight: 500;
+  font-family: "Playfair Display";
+  src: local("Playfair Display"), local("PlayfairDisplay"),
+    url("./PlayfairDisplay/PlayfairDisplay-VariableFont_wght.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 500;
 }
 
 @font-face {
-    font-family: "Bitter";
-    src: local("Bitter"),
-        url("./Bitter/Bitter-VariableFont_wght.ttf") format("ttf");
-    font-style: normal;
-    font-weight: 400;
+  font-family: "Bitter";
+  src: local("Bitter"),
+    url("./Bitter/Bitter-VariableFont_wght.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 400;
 }
 
 @font-face {
-    font-family: "Butler";
-    src: local("Butler"),
-        url("./Butler/Butler.woff2") format("woff2"),
-        url("./Butler/Butler.woff") format("woff");
-    font-style: normal;
-    font-weight: 400;
+  font-family: "Butler";
+  src: local("Butler"), url("./Butler/Butler.woff2") format("woff2"),
+    url("./Butler/Butler.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
 }
 
 /** глобальные стили для всего документа */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /** стилизация шрифтов */
 
 .body {
-    font-family:"Roboto", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    line-height: 1.2;
-    font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.2;
+  font-weight: 400;
 }
 
 .hero__title {
-    font-family: "Playfair Display", serif;
-    font-size: 86px;
-    font-weight: 500;
+  font-family: "Playfair Display", serif;
+  font-size: 86px;
+  font-weight: 500;
 }
 
 .hero__subtitle {
-    font-size: 20px;
-    font-weight: 500;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .biography__description {
-    font-family: "Bitter", serif;
-    font-size: 26px;
+  font-family: "Bitter", serif;
+  font-size: 26px;
 }
 
 .designers__title {
-    font-size: 20px;
-    font-weight: 700;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .testimonials__title {
-    font-size: 20px;
-    font-weight: 700;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .testimonials__subtitle {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .testimonials__description {
-    font-family: "Bitter", serif;
-    font-size: 32px;
-}
-
-.strengths__title {
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.strengths__subtitle {
-    font-family: "Playfair Display", serif;
-    font-size: 86px;
-    font-weight: 500;
-    line-height: 1.3;
-}
-
-.strengths__item {
-    font-family: "Bitter", serif;
-    font-size: 32px;
+  font-family: "Bitter", serif;
+  font-size: 32px;
 }
 
 .footer__link {
-    font-family: "Butler", serif;
-    font-size: 40px;
+  font-family: "Butler", serif;
+  font-size: 40px;
 }
 
 /** стили для header */
 
 .header {
-    min-height: 135px;
-    text-align: center;
-    padding-top: 60px;
+  min-height: 135px;
+  text-align: center;
+  padding-top: 60px;
 }
 
 .header__menu {
-    max-width: 34px;
-    max-height: 15px;
-    border: none;
-    background: transparent;
+  max-width: 34px;
+  max-height: 15px;
+  border: none;
+  background: transparent;
 }
 
 /** стили для hero-section */
 
 .hero {
-    background-image: url(../images/header.jpg);
-    background-size: cover;
-    min-height: 630px;
-    position: relative;
-    margin: 0px auto 135px;
-    max-width: 1065px;
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+  min-height: 630px;
+  position: relative;
+  margin: 0px auto 135px;
+  max-width: 1065px;
 }
 
 .hero__box {
-    background-color: #fff;
-    width: 56%;
-    min-height: 360px;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding-top: 110px;
-    padding-left: 20px;
-    padding-bottom: 110px;
-    padding-right: 20px;
+  background-color: #fff;
+  width: 56%;
+  min-height: 360px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 110px;
+  padding-left: 20px;
+  padding-bottom: 110px;
+  padding-right: 20px;
 }
 
 /** стили для biography-section */
 .biography {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    max-width: 1175px;
-    max-height: 840px;
-    margin: 0px auto 135px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  max-width: 1175px;
+  max-height: 840px;
+  margin: 0px auto 135px;
 }
 
 .biography__image {
-    max-width: 47%;
-    max-height: 840px;
+  max-width: 47%;
+  max-height: 840px;
 }
 
-.biography__title{
-    transform: rotate(-180deg);
-    writing-mode:vertical-rl;
-    max-width: 23px;
-    max-height: 92px;
-    font-size: 20px;
-    font-weight: 700;
-    margin-left: 33px;
+.biography__title {
+  transform: rotate(-180deg);
+  writing-mode: vertical-rl;
+  max-width: 23px;
+  max-height: 92px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 33px;
 }
 
-.biography__content{
-    max-width: 475px;
-    min-height: 507px;
-    align-self: center;
-    margin-left: 91px;
+.biography__content {
+  max-width: 475px;
+  min-height: 507px;
+  align-self: center;
+  margin-left: 91px;
 }
 
-.biography__author{
-    margin-bottom: 25px;
-    font-family: "Playfair Display", serif;
-    font-size: 86px;
-    font-weight: 500;
-    line-height: 1.3;
+.biography__author {
+  margin-bottom: 25px;
+  font-family: "Playfair Display", serif;
+  font-size: 86px;
+  font-weight: 500;
+  line-height: 1.3;
 }
 
-.biography__job{
-    margin-bottom: 65px;
-    font-size: 18px;
-    font-weight: 500;
+.biography__job {
+  margin-bottom: 65px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
-.biography__description::before{
-    display: block;
-    content: "";
-    width: 14px;
-    height: 4px;
-    background-color: black;
-    margin-bottom: 17px;
+.biography__description::before {
+  display: block;
+  content: "";
+  width: 14px;
+  height: 4px;
+  background-color: black;
+  margin-bottom: 17px;
 }
 
-.biography__description{
-    max-width: 449px;
+.biography__description {
+  max-width: 449px;
+}
+
+/** стили для strong-point-section */
+
+.strengths {
+  max-width: 1537px;
+  min-height: 665px;
+  margin-bottom: 80px;
+  overflow: auto;
+}
+
+.strengths__title {
+  display: inline-block;
+  margin-left: 255px;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transform-origin: right top;
+  -ms-transform-origin: right top;
+  transform-origin: right top;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.strengths__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  gap: 30px;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+@supports (display: grid) {
+  .strengths__content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto 30px auto 30px auto 30px auto;
+    grid-template-columns: repeat(4, auto);
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: end;
+    gap: 30px;
+  }
+}
+
+.strengths__image {
+  min-width: 350px;
+  min-height: 525px;
+}
+
+.strengths__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 665px;
+  min-width: 395px;
+}
+
+.strengths__subtitle {
+  margin-bottom: 35px;
+  font-family: "Playfair Display", serif;
+  font-size: 86px;
+  font-weight: 500;
+  line-height: 1.33;
+}
+
+.strengths__list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  gap: 3px;
+  min-width: 229px;
+}
+
+.strengths__item {
+  font-family: "Bitter", serif;
+  font-size: 32px;
+}
+
+.strengths__link {
+  color: black;
+  text-decoration: none;
+}
+
+.strengths__link:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+  -webkit-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
 }
