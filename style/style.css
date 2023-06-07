@@ -82,107 +82,12 @@
   box-sizing: border-box;
 }
 
-/** стилизация шрифтов */
-
 .body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   line-height: 1.2;
   font-weight: 400;
-}
-
-.hero__title {
-  font-family: "Playfair Display", serif;
-  font-size: 86px;
-  font-weight: 500;
-}
-
-.hero__subtitle {
-  font-size: 20px;
-  font-weight: 500;
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.biography__title {
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.biography__author {
-  font-family: "Playfair Display", serif;
-  font-size: 86px;
-  font-weight: 500;
-  line-height: 1.3;
-}
-
-.biography__subtitle {
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.biography__description {
-  font-family: "Bitter", serif;
-  font-size: 26px;
-}
-
-.designers__title {
-  font-size: 20px;
-  font-weight: 700;
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.testimonials__title {
-  font-size: 20px;
-  font-weight: 700;
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.testimonials__subtitle {
-  font-weight: 700;
-  font-weight: 700;
-}
-
-.testimonials__quote {
-  font-family: "Bitter", serif;
-  font-size: 32px;
-}
-
-.testimonials__link {
-  font-size: 16px;
-}
-
-.strengths__title {
-  font-size: 20px;
-  font-weight: 700;
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.strengths__subtitle {
-  font-family: "Playfair Display", serif;
-  font-size: 86px;
-  font-weight: 500;
-  line-height: 1.3;
-  font-family: "Playfair Display", serif;
-  font-size: 86px;
-  font-weight: 500;
-  line-height: 1.3;
-}
-
-.strengths__item {
-  font-family: "Bitter", serif;
-  font-size: 32px;
-  font-family: "Bitter", serif;
-  font-size: 32px;
-}
-
-.footer__link {
-  font-family: "Butler", serif;
-  font-size: 40px;
 }
 
 /** стили для header */
@@ -201,6 +106,17 @@
 }
 
 /** стили для hero-section */
+
+.hero__title {
+  font-family: "Playfair Display", serif;
+  font-size: 86px;
+  font-weight: 500;
+}
+
+.hero__subtitle {
+  font-size: 20px;
+  font-weight: 500;
+}
 
 .hero {
   background-image: url(../images/header.jpg);
@@ -221,95 +137,11 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding-top: 110px;
-  padding-left: 20px;
-  padding-bottom: 110px;
-  padding-right: 20px;
-  background-color: #fff;
-  width: 56%;
-  min-height: 360px;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding-top: 110px;
-  padding-left: 20px;
-  padding-bottom: 110px;
-  padding-right: 20px;
-  background-color: #fff;
-  width: 56%;
-  min-height: 360px;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding-top: 110px;
-  padding-left: 20px;
-  padding-bottom: 110px;
-  padding-right: 20px;
+  padding: 110px 20px 110px 20px;
 }
-
-.designers {
-  margin-bottom: 258px;
-}
-
-.testimonials {
-  max-width: 1180px;
-  margin: auto;
-  margin-bottom: 134px;
-}
-.testimonials__title {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 33px;
-}
-
-.testimonials__content {
-  display: grid;
-  grid-template-columns: 6% 44% 50%;
-}
-.testimonials__links {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: flex-end;
-  margin-bottom: 15px;
-  gap: 190px;
-}
-
-.testimonials__link {
-  display: inline-block;
-  max-width: 186px;
-  text-decoration: none;
-  color: black;
-  transform: rotate(-90deg);
-  transform-origin: top left;
-}
-
-.testimonials__link:hover {
-  opacity: 0.8;
-  transition: opacity 0.5s ease;
-}
-
-.testimonials__mission {
-  align-self: center;
-  justify-self: center;
-}
-
-.testimonials__quote {
-  max-width: 221px;
-  text-align: center;
-  margin-bottom: 42px;
-}
-
-.testimonials__image_size_large {
-  max-width: 515px;
-}
-
 
 /** стили для biography-section */
+
 .biography {
   position: relative;
   display: flex;
@@ -319,24 +151,11 @@
   max-width: 1175px;
   max-height: 840px;
   margin: 0px auto 135px;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  max-width: 1175px;
-  max-height: 840px;
-  margin: 0px auto 135px;
-}
-
-.biography__image {
-  max-width: 47%;
-  max-height: 840px;
-  max-width: 47%;
-  max-height: 840px;
 }
 
 .biography__title {
+  font-size: 20px;
+  font-weight: 700;
   transform: rotate(-180deg);
   writing-mode: vertical-rl;
   max-width: 23px;
@@ -344,35 +163,20 @@
   font-size: 20px;
   font-weight: 700;
   margin-left: 33px;
-.biography__title {
-  transform: rotate(-180deg);
-  writing-mode: vertical-rl;
-  max-width: 23px;
-  max-height: 92px;
-  font-size: 20px;
-  font-weight: 700;
-  margin-left: 33px;
-}
-
-.biography__content {
-  max-width: 475px;
-  min-height: 507px;
-  align-self: center;
-  margin-left: 91px;
 }
 
 .biography__author {
-  margin-bottom: 25px;
   font-family: "Playfair Display", serif;
   font-size: 86px;
   font-weight: 500;
   line-height: 1.3;
+  margin-bottom: 25px;
 }
 
-.biography__job {
-  margin-bottom: 65px;
-  font-size: 18px;
-  font-weight: 500;
+.biography__description {
+  font-family: "Bitter", serif;
+  font-size: 26px;
+  max-width: 449px;
 }
 
 .biography__description::before {
@@ -384,8 +188,24 @@
   margin-bottom: 17px;
 }
 
-.biography__description {
-  max-width: 449px;
+.biography__image {
+  max-width: 47%;
+  max-height: 840px;
+  max-width: 47%;
+  max-height: 840px;
+}
+
+.biography__content {
+  max-width: 475px;
+  min-height: 507px;
+  align-self: center;
+  margin-left: 91px;
+}
+
+.biography__job {
+  margin-bottom: 65px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 /** стили для designers-section */
@@ -426,14 +246,12 @@
 .designers__photo-container {
   max-width: 320px;
   max-height: 440px;
-
   overflow: hidden;
 }
 
 .designers__photo-container_resized {
   max-width: 640px;
   max-height: 538px;
-
   overflow: hidden;
 }
 
@@ -457,6 +275,70 @@
 
 .designers__skills::before {
   content: "Skills/ ";
+  font-weight: 700;
+}
+
+/** стили для testimonials-section */
+
+.testimonials {
+  max-width: 1180px;
+  margin: auto;
+  margin-bottom: 134px;
+}
+
+.testimonials__title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 33px;
+}
+
+.testimonials__content {
+  display: grid;
+  grid-template-columns: 6% 44% 50%;
+}
+
+.testimonials__links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  margin-bottom: 15px;
+  gap: 190px;
+}
+
+.testimonials__link {
+  display: inline-block;
+  max-width: 186px;
+  text-decoration: none;
+  color: black;
+  transform: rotate(-90deg);
+  transform-origin: top left;
+  font-size: 16px;
+}
+
+.testimonials__link:hover {
+  opacity: 0.8;
+  transition: opacity 0.5s ease;
+}
+
+.testimonials__mission {
+  align-self: center;
+  justify-self: center;
+}
+
+.testimonials__quote {
+  max-width: 221px;
+  text-align: center;
+  margin-bottom: 42px;
+  font-family: "Bitter", serif;
+  font-size: 32px;
+}
+
+.testimonials__image_size_large {
+  max-width: 515px;
+}
+
+.testimonials__subtitle {
   font-weight: 700;
 }
 
@@ -570,4 +452,11 @@
   -webkit-transition: opacity 0.5s ease;
   -o-transition: opacity 0.5s ease;
   transition: opacity 0.5s ease;
+}
+
+/** стили для footer */
+
+.footer__link {
+  font-family: "Butler", serif;
+  font-size: 40px;
 }
