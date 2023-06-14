@@ -1,4 +1,4 @@
-/** подключение шрифтов */
+/* подключение шрифтов */
 
 @font-face {
   font-family: "Roboto";
@@ -74,7 +74,7 @@
   font-weight: 400;
 }
 
-/** глобальные стили для всего документа */
+/* глобальные стили для всего документа */
 
 * {
   margin: 0;
@@ -90,7 +90,7 @@
   font-weight: 400;
 }
 
-/** стили для header */
+/* стили для header */
 
 .header {
   min-height: 135px;
@@ -105,7 +105,7 @@
   background: transparent;
 }
 
-/** стили для hero-section */
+/* стили для hero-section */
 
 .hero__title {
   font-family: "Playfair Display", serif;
@@ -140,7 +140,7 @@
   padding: 110px 20px 110px 20px;
 }
 
-/** стили для biography-section */
+/* стили для biography-section */
 
 .biography {
   position: relative;
@@ -208,7 +208,7 @@
   font-weight: 500;
 }
 
-/** стили для designers-section */
+/* стили для designers-section */
 
 .designers {
   overflow: auto;
@@ -278,18 +278,36 @@
   font-weight: 700;
 }
 
-/** стили для testimonials-section */
+/* БЛОКИ ДЛЯ ДОМАШНЕЙ РАБОТЫ ПО БЭМ
+========================================================================================== */
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.title_testimonials {
+  padding-bottom: 33px;
+}
+
+.title_strengths {
+  display: inline-block;
+  padding-left: 255px;
+  transform: rotate(-90deg);
+  transform-origin: right top;
+}
+
+.portfolio-image {
+  min-width: 350px;
+  min-height: 525px;
+}
+
+/* стили для testimonials-section */
 
 .testimonials {
   max-width: 1180px;
   margin: auto;
   margin-bottom: 134px;
-}
-
-.testimonials__title {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 33px;
 }
 
 .testimonials__content {
@@ -301,48 +319,39 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: flex-end;
-  margin-bottom: 15px;
   gap: 190px;
+  margin-bottom: 15px;
+  align-content: flex-end;
 }
 
 .testimonials__link {
   display: inline-block;
   max-width: 186px;
-  text-decoration: none;
-  color: black;
   transform: rotate(-90deg);
   transform-origin: top left;
   font-size: 16px;
+  text-decoration: none;
+  color: #000000;
 }
 
-.testimonials__link:hover {
-  opacity: 0.8;
-  transition: opacity 0.5s ease;
+.testimonials__interior-image {
+  max-width: 515px;
 }
 
-.testimonials__mission {
+.testimonials__description {
   align-self: center;
   justify-self: center;
 }
 
 .testimonials__quote {
   max-width: 221px;
-  text-align: center;
   margin-bottom: 42px;
   font-family: "Bitter", serif;
   font-size: 32px;
+  text-align: center;
 }
 
-.testimonials__image_size_large {
-  max-width: 515px;
-}
-
-.testimonials__subtitle {
-  font-weight: 700;
-}
-
-/** стили для strong-point-section */
+/* стили для strong-point-section */
 
 .strengths {
   max-width: 1537px;
@@ -351,66 +360,29 @@
   overflow: auto;
 }
 
-.strengths__title {
-  display: inline-block;
-  margin-left: 255px;
-  -webkit-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-  -webkit-transform-origin: right top;
-  -ms-transform-origin: right top;
-  transform-origin: right top;
-  font-size: 20px;
-  font-weight: 700;
-}
-
 .strengths__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   gap: 30px;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
   align-items: flex-end;
 }
 
 @supports (display: grid) {
   .strengths__content {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto 30px auto 30px auto 30px auto;
     grid-template-columns: repeat(4, auto);
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: end;
     gap: 30px;
+    align-items: end;
   }
 }
 
-.strengths__image {
-  min-width: 350px;
-  min-height: 525px;
-}
-
 .strengths__links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   min-height: 665px;
   min-width: 395px;
+  align-items: center;
 }
 
 .strengths__subtitle {
@@ -423,17 +395,11 @@
 
 .strengths__list {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  gap: 3px;
   min-width: 229px;
+  gap: 3px;
 }
 
 .strengths__item {
@@ -442,20 +408,11 @@
 }
 
 .strengths__link {
-  color: black;
+  color: #000000;
   text-decoration: none;
 }
 
-.strengths__link:hover {
-  text-decoration: underline;
-  opacity: 0.8;
-  -webkit-transition: opacity 0.5s ease;
-  -o-transition: opacity 0.5s ease;
-  transition: opacity 0.5s ease;
-}
-
-/** стили для footer */
-
+/* стили для footer */
 .footer__link {
   font-family: "Butler", serif;
   font-size: 40px;
