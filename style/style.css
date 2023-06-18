@@ -160,8 +160,6 @@
   writing-mode: vertical-rl;
   max-width: 23px;
   max-height: 92px;
-  font-size: 20px;
-  font-weight: 700;
   margin-left: 33px;
 }
 
@@ -189,8 +187,6 @@
 }
 
 .biography__image {
-  max-width: 47%;
-  max-height: 840px;
   max-width: 47%;
   max-height: 840px;
 }
@@ -313,12 +309,12 @@
   color: black;
   transform: rotate(-90deg);
   transform-origin: top left;
+  transition: opacity 0.5s ease;
   font-size: 16px;
 }
 
 .testimonials__link:hover {
   opacity: 0.8;
-  transition: opacity 0.5s ease;
 }
 
 .testimonials__mission {
@@ -455,6 +451,9 @@
 }
 
 /** стили для footer */
+.footer {
+  display: none;
+}
 
 .footer__link {
   font-family: "Butler", serif;
