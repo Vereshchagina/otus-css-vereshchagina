@@ -15,9 +15,10 @@
 <body class="body">
 
         <header class="header">
-            <button type="button" class="header__menu">
-                <img src="./images/Menu.png" alt="Menu button." class="header__image">
-            </button>  
+          <a class="header__link" href="#">Biography</a>
+          <a class="header__link" href="#">Designers</a>
+          <a class="header__link" href="#">Testimonials</a>
+          <a class="header__link" href="#">Strong points</a>
         </header>
 
         <main class="content">
@@ -30,19 +31,20 @@
             </section>
 
             <section class="biography">
-                <picture>
+                <picture class="biography__picture">
                     <source srcset="./images/biography_small.jpg" media="(max-width: 990px)">
                     <img class="biography__image" src="./images/biography.jpg" alt="Photo of Katya Mills.">
                 </picture>
                 <h2 class="biography__title">Biography</h3>
                 <div class="biography__content">
-                    <h3 class="biography__author">Katya 
-                        <br> Mills</h2>
+                    <h3 class="biography__author">Katya Mills</h2>
                     <p class="biography__position">Art Director</p>
-                    <p class="biography__job">Scenography</p>
-                    <p class="biography__job">Styling</p>
-                    <p class="biography__job">Creative Photography</p>
-                    <p class="biography__job">Design</p>
+                    <div class = "biography__job">
+                      <p class="biography__job-item">Scenography</p>
+                      <p class="biography__job-item">Styling</p>
+                      <p class="biography__job-item">Creative Photography</p>
+                      <p class="biography__job-item">Design</p>
+                    </div>
                     <p class="biography__description">
                         “The more I deal with the work 
                         as something that is my own, 
@@ -154,11 +156,11 @@
 
         </main>
 
-        <footer>
-            <a class="footer__link" href="">B</a>
-            <a class="footer__link" href="">D</a>
-            <a class="footer__link" href="">T</a>
-            <a class="footer__link" href="">S</a>
-        </footer>
+        <div class="footer__menu">
+          <a class="footer__link" href="">B</a>
+          <a class="footer__link" href="">D</a>
+          <a class="footer__link" href="">T</a>
+          <a class="footer__link" href="">S</a>
+        </div>
 </body>
 </html>
