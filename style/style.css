@@ -109,7 +109,7 @@
   position: relative;
   margin: auto;
   margin-bottom: 149px;
-  max-width: 1440px;
+  width: 100%;
   background-image: url(../images/header.jpg);
   background-size: cover;
   min-height: 630px;
@@ -211,6 +211,13 @@
     flex-direction: column;
     max-height: 952px;
     max-width: 900px;
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .biography {
+    max-width: 450px;
     margin-bottom: 80px;
   }
 }
@@ -348,8 +355,15 @@
 }
 
 @media screen and (max-width: 990px) {
+  .biography__image {
+    max-height: 400px;
+  }
+}
+
+@media screen and (max-width: 990px) {
   .biography__picture {
     margin: 0px auto 0px auto;
+    max-width: 100%;
   }
 }
 
@@ -372,7 +386,8 @@
 
 @media screen and (max-width: 450px) {
   .biography__content {
-    margin-left: 18px;
+    padding-left: 18px;
+    max-width: 450px;
   }
 }
 
@@ -571,8 +586,10 @@
 
 @media screen and (max-width: 768px) {
   .testimonials__links {
-    max-width: 450px;
+    max-width: 412px;
     justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -615,6 +632,8 @@
 @media screen and (max-width: 990px) {
   .testimonials__quote {
     max-width: 342px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
