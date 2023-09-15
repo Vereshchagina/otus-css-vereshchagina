@@ -100,9 +100,24 @@
     left: 0%;
     transform: none;
   }
+
   .image {
     max-width: 450px;
     min-height: 420px;
     margin: auto;
+  }
+}
+
+.text {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: none;
   }
 }
