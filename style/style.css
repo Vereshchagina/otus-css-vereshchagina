@@ -217,7 +217,6 @@
 
 @media screen and (max-width: 450px) {
   .biography {
-    max-width: 450px;
     margin-bottom: 80px;
   }
 }
@@ -357,13 +356,13 @@
 @media screen and (max-width: 990px) {
   .biography__image {
     max-height: 400px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 990px) {
   .biography__picture {
     margin: 0px auto 0px auto;
-    max-width: 100%;
   }
 }
 
