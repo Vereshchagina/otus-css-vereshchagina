@@ -21,9 +21,9 @@ Learning repository for OTUS Fullstack Developer course
 Проект содержит следующие ветки и функциональность:
 
 - main - итоговый вариант адаптивной верстки страницы по макету
-- bem -
-- bootstrap
-- tailwind
+- bem - 
+- bootstrap - верстка 2 секций с использованием фреймворка Bootstrap
+- tailwind - верстка 2 секций с использованием фреймворка Tailwind
 
 ## Размещение проекта
 
