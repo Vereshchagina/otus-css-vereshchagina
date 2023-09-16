@@ -2,26 +2,10 @@
 
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto Regular"), local("Roboto-Regular"),
-    url("./Roboto/Roboto-Regular.ttf") format("ttf");
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Roboto";
   src: local("Roboto Medium"), local("Roboto-Medium"),
     url("./Roboto/Roboto-Medium.ttf") format("ttf");
   font-style: normal;
   font-weight: 500;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: local("Roboto Bold"), local("Roboto-Bold"),
-    url("./Roboto/Roboto-Bold.ttf") format("ttf");
-  font-style: normal;
-  font-weight: 700;
 }
 
 @font-face {
@@ -32,82 +16,27 @@
   font-weight: 500;
 }
 
-@font-face {
-  font-family: "Bitter";
-  src: local("Bitter"),
-    url("./Bitter/Bitter-VariableFont_wght.ttf") format("ttf");
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Butler";
-  src: local("Butler"),
-    url("../vendor/fonts/Butler/Butler.woff2") format("woff2"),
-    url("../vendor/fonts/Butler/Butler.woff") format("woff");
-  font-style: normal;
-  font-weight: 400;
-}
-
-/** глобальные стили для всего документа */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.body {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  line-height: 1.2;
-  font-weight: 400;
-}
-
-/** стили для header */
-
-.header {
-  min-height: 135px;
-  text-align: center;
-  padding-top: 60px;
-}
-
-.header__menu {
-  max-width: 34px;
-  max-height: 15px;
-  border: none;
-  background: transparent;
-}
-
-/** стили для hero-section */
-
-.hero__title {
+.title {
   font-family: "Playfair Display", serif;
   font-size: 86px;
-  font-weight: 500;
+  margin-bottom: 15px;
 }
 
-.hero__subtitle {
-  font-size: 20px;
-  font-weight: 500;
+@media screen and (max-width: 990px) {
+  .title {
+    font-size: 75px;
+  }
 }
 
-.hero {
-  background-image: url(../images/header.jpg);
-  background-size: cover;
-  min-height: 630px;
-  position: relative;
-  margin: auto;
-  margin-bottom: 135px;
-  max-width: 1065px;
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 70px;
+  }
 }
 
-.hero__box {
-  background-color: #fff;
-  width: 56%;
-  min-height: 360px;
-  text-align: center;
+.box {
+  width: 49%;
+  height: 57%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -115,3 +44,27 @@
   padding: 110px 20px 110px 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .box {
+    position: relative;
+    min-height: 344px;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    transform: none;
+  }
+
+  .image {
+    max-width: 450px;
+    min-height: 420px;
+    margin: auto;
+  }
+}
+
+.text {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+  text-decoration: none;
+}
