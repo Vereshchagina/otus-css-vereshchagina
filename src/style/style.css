@@ -3,12 +3,7 @@
 @font-face {
   font-family: "Roboto";
   src: local("Roboto Regular"), local("Roboto-Regular"),
-    url("./Roboto/Roboto-Regular.ttf") format("ttf");
-  font-style: normal;
-  font-weight: 400;
-  font-family: "Roboto";
-  src: local("Roboto Regular"), local("Roboto-Regular"),
-    url("./Roboto/Roboto-Regular.ttf") format("ttf");
+    url("../fonts/Roboto/Roboto-Regular.ttf") format("ttf");
   font-style: normal;
   font-weight: 400;
 }
@@ -16,12 +11,7 @@
 @font-face {
   font-family: "Roboto";
   src: local("Roboto Medium"), local("Roboto-Medium"),
-    url("./Roboto/Roboto-Medium.ttf") format("ttf");
-  font-style: normal;
-  font-weight: 500;
-  font-family: "Roboto";
-  src: local("Roboto Medium"), local("Roboto-Medium"),
-    url("./Roboto/Roboto-Medium.ttf") format("ttf");
+    url("../fonts/Roboto/Roboto-Medium.ttf") format("ttf");
   font-style: normal;
   font-weight: 500;
 }
@@ -29,12 +19,7 @@
 @font-face {
   font-family: "Roboto";
   src: local("Roboto Bold"), local("Roboto-Bold"),
-    url("./Roboto/Roboto-Bold.ttf") format("ttf");
-  font-style: normal;
-  font-weight: 700;
-  font-family: "Roboto";
-  src: local("Roboto Bold"), local("Roboto-Bold"),
-    url("./Roboto/Roboto-Bold.ttf") format("ttf");
+    url("../fonts/Roboto/Roboto-Bold.ttf") format("ttf");
   font-style: normal;
   font-weight: 700;
 }
@@ -42,12 +27,7 @@
 @font-face {
   font-family: "Playfair Display";
   src: local("Playfair Display"), local("PlayfairDisplay"),
-    url("./PlayfairDisplay/PlayfairDisplay-VariableFont_wght.ttf") format("ttf");
-  font-style: normal;
-  font-weight: 500;
-  font-family: "Playfair Display";
-  src: local("Playfair Display"), local("PlayfairDisplay"),
-    url("./PlayfairDisplay/PlayfairDisplay-VariableFont_wght.ttf") format("ttf");
+    url("../fonts/PlayfairDisplay/PlayfairDisplay-VariableFont_wght.ttf") format("ttf");
   font-style: normal;
   font-weight: 500;
 }
@@ -55,12 +35,7 @@
 @font-face {
   font-family: "Bitter";
   src: local("Bitter"),
-    url("./Bitter/Bitter-VariableFont_wght.ttf") format("ttf");
-  font-style: normal;
-  font-weight: 400;
-  font-family: "Bitter";
-  src: local("Bitter"),
-    url("./Bitter/Bitter-VariableFont_wght.ttf") format("ttf");
+    url("../fonts/Bitter/Bitter-VariableFont_wght.ttf") format("ttf");
   font-style: normal;
   font-weight: 400;
 }
@@ -68,8 +43,8 @@
 @font-face {
   font-family: "Butler";
   src: local("Butler"),
-    url("../vendor/fonts/Butler/Butler.woff2") format("woff2"),
-    url("../vendor/fonts/Butler/Butler.woff") format("woff");
+    url("../fonts/Butler/Butler.woff2") format("woff2"),
+    url("../fonts/Butler/Butler.woff") format("woff");
   font-style: normal;
   font-weight: 400;
 }
