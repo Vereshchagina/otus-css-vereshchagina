@@ -8,6 +8,7 @@
     url("./vendor/fonts/Roboto/Roboto-Regular.ttf") format("ttf");
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
@@ -16,6 +17,7 @@
     url("./vendor/fonts/Roboto/Roboto-Medium.ttf") format("ttf");
   font-style: normal;
   font-weight: 500;
+  font-display: swap;
 }
 
 @font-face {
@@ -24,6 +26,7 @@
     url("./vendor/fonts/Roboto/Roboto-Bold.ttf") format("ttf");
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
 }
 
 @font-face {
@@ -32,6 +35,7 @@
     url("./vendor/fonts/PlayfairDisplay/PlayfairDisplay-VariableFont_wght.ttf") format("ttf");
   font-style: normal;
   font-weight: 500;
+  font-display: swap;
 }
 
 @font-face {
@@ -40,6 +44,7 @@
     url("./vendor/fonts/Bitter/Bitter-VariableFont_wght.ttf") format("ttf");
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
@@ -49,6 +54,7 @@
     url("./vendor/fonts/Butler/Butler.woff") format("woff");
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
 }
 
 /** глобальные стили для всего документа */
@@ -836,17 +842,15 @@
 }
 
 /** стили для footer */
-.footer {
-  display: none;
-}
 
-.footer__menu {
+.footer {
   display: none;
   width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-  .footer__menu {
+
+  .footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
