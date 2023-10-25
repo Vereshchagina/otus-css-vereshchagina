@@ -29,6 +29,6 @@ Learning repository for OTUS Fullstack Developer course
 ## Размещение проекта
 
 - Сылка на репозиторий - https://github.com/Vereshchagina/otus-css-vereshchagina
-- Ссылка на github pages - 
+- Ссылка на github pages - https://vereshchagina.github.io/otus-css-vereshchagina
 
 ---
