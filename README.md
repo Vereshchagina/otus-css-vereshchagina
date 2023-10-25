@@ -21,13 +21,14 @@ Learning repository for OTUS Fullstack Developer course
 Проект содержит следующие ветки и функциональность:
 
 - main - итоговый вариант адаптивной верстки страницы по макету
-- bem - 
+- bem - пример использования методологии ВЕМ для именования классов
+- automotization - пример настройки конфигурации webpack
 - bootstrap - верстка 2 секций с использованием фреймворка Bootstrap
 - tailwind - верстка 2 секций с использованием фреймворка Tailwind
 
 ## Размещение проекта
 
-- Сылка на репозиторий -
-- Ссылка на github pages -
+- Сылка на репозиторий - https://github.com/Vereshchagina/otus-css-vereshchagina
+- Ссылка на github pages - 
 
 ---
