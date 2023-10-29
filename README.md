@@ -31,4 +31,10 @@ Learning repository for OTUS Fullstack Developer course
 - Сылка на репозиторий - https://github.com/Vereshchagina/otus-css-vereshchagina
 - Ссылка на github pages - https://vereshchagina.github.io/otus-css-vereshchagina
 
+## Результаты проверки качества сайта 
+
+- Desktop https://github.com/Vereshchagina/otus-css-vereshchagina/blob/support/src/images/Desktop%20LightHouse.png
+- Mobile https://github.com/Vereshchagina/otus-css-vereshchagina/blob/support/src/images/Mobile%20LightHouse.png
+
+
 ---
